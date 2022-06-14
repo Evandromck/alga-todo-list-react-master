@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <List
         items={todos}
-        title="Todo list"
+        title="Servidor node.js heroku"
         onToggle={handleToggle}
         onAdd={handleAdd}
       />
