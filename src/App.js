@@ -4,7 +4,7 @@ import List from './components/List';
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, title: 'Wash my car', done: false },
+    { id: 1, title: 'ash my car', done: false },
     { id: 2, title: 'Buy some milk', done: true },
   ])
 
