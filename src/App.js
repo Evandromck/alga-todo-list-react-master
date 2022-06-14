@@ -4,8 +4,8 @@ import List from './components/List';
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, title: 'ash my car', done: false },
-    { id: 2, title: 'Buy some milk', done: true },
+    { id: 1, title: 'Fernando Rodrigues', done: false },
+    { id: 2, title: 'Lúcia dos Santos ', done: true },
   ])
 
   const handleToggle = (selectedTodo) => {
@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <List
         items={todos}
-        title="Servidor node.js heroku"
+        title="Servidor Node.js Heroku"
         onToggle={handleToggle}
         onAdd={handleAdd}
       />
