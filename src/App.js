@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <List
         items={todos}
-        title="Servidor Node.js Heroku"
+        title="Servidor Emerj"
         onToggle={handleToggle}
         onAdd={handleAdd}
       />
