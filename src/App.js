@@ -6,6 +6,7 @@ function App() {
   const [todos, setTodos] = useState([
     { id: 1, title: 'Fernando Rodrigues', done: false },
     { id: 2, title: 'Lúcia dos Santos ', done: true },
+    { id: 3, title: 'Lúcia', done: true },
   ])
 
   const handleToggle = (selectedTodo) => {
