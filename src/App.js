@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <List
         items={todos}
-        title="Servidor Emerj"
+        title="Servidor Emerj teste"
         onToggle={handleToggle}
         onAdd={handleAdd}
       />
