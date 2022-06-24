@@ -1,4 +1,4 @@
-# Alga Todo List
+# APP Emerj
 
 <center>
   <img src="./docs/screenshot.png" />
